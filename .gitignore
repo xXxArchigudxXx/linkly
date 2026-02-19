@@ -1,0 +1,47 @@
+# Dependencies
+/vendor/
+/Frontend/node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+/logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/build/
+/dist/
+
+# Tests
+/tests/coverage/
+.phpunit.result.cache
+phpunit.xml
+
+# PHPStan
+/phpstan.neon
+
+# GeoIP Database
+/data/GeoLite2-*.mmdb
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Development/CI files (not for production)
+vaib/
+.kilocodemodes
